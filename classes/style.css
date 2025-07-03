@@ -1,0 +1,35 @@
+        * {
+            text-align: center;
+            padding: 0;
+            background-color: rgb(213, 229, 243);
+        }
+        
+        h1 {
+            font-style: italic
+        }
+        
+        body {
+            border: 3px solid black;
+            margin: 50px;
+            padding: 10px;
+            border-radius: 2%;
+        }
+        
+        img {
+            border-radius: 50%;
+        }
+        
+        img:hover {
+            transition: transform 0.8s ease;
+            transform: scale(1.1) rotate(1deg);
+            cursor: pointer;
+        }
+        
+        footer {
+            color: aliceblue;
+        }
+        
+        h1 {
+            background-color: rgb(1, 7, 12);
+            color: aliceblue;
+        }
